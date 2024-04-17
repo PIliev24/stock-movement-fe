@@ -21,19 +21,6 @@ export const GET_WAREHOUSES = gql`
   }
 `;
 
-export const GET_ALL_STOCK_MOVEMENTS = gql`
-  query GetAllStockMovements {
-    getAllStockMovements {
-      id
-      productId
-      warehouseId
-      quantity
-      date
-      type
-    }
-  }
-`;
-
 export const WAREHOUSE_STOCK_MOVEMENTS = gql`
   query WarehouseStockMovements($warehouseId: String!) {
     getStockMovementsByWarehouse(warehouseId: $warehouseId) {

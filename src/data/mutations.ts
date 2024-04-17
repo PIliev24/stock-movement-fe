@@ -21,22 +21,6 @@ export const DELETE_PRODUCT = gql`
   }
 `;
 
-// export const CREATE_WAREHOUSE = gql`
-//   mutation CreateWarehouse {
-//     createWarehouse(createWarehouse: Warehouse) {
-//       id
-//       name
-//       capacity
-//     }
-//   }
-// `;
-
-// export const DELETE_WAREHOUSE = gql`
-//   mutation DeleteWarehouse {
-//     deleteWarehouse(id: String!)
-//   }
-// `;
-
 export const CREATE_STOCK_MOVEMENT = gql`
   mutation CreateStockMovement(
     $createStockMovementInput: CreateStockMovement!
