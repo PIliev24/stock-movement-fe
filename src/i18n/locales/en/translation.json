@@ -1,0 +1,21 @@
+{
+  "page_not_found": "Page Not Found",
+  "products": "Products",
+  "warehouses": "Warehouses",
+  "add_product": "Add Product",
+  "add_stock_movement": "Add Stock Movement",
+  "delete": "Delete",
+  "size_per_unit": "Size per unit",
+  "select_product": "Select a product",
+  "free_space_remaining": "Free Space Remaining",
+  "current_stock": "Current Stock",
+  "stock_movements": "Stock movements",
+  "type_of_movement": "Type of movement",
+  "product": "Product",
+  "quantity": "Quantity",
+  "date": "Date",
+  "select_warehouse": "Select a warehouse",
+  "create_product": "Create product",
+  "product_name": "Product Name",
+  "is_hazardous": "Is Hazardous?"
+}
